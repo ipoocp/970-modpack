@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "minecraft_version": "1.20.1",
+  "forge_version": "47.4.20",
+  "java": {
+    "version": 25,
+    "descarga_windows": "https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe"
+  },
+  "forge_installer": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-installer.jar",
+  "mods": [
+    {
+      "nombre": "JEI",
+      "archivo": "jei-1.20.1-forge-15.2.0.27.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/.../jei-1.20.1-forge-15.2.0.27.jar",
+      "sha256": "abc123..."
+    },
+    {
+      "nombre": "Sodium",
+      "archivo": "sodium-forge-1.20.1-0.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/...",
+      "sha256": "def456..."
+    }
+  ],
+  "updated": "2026-06-14"
+}
