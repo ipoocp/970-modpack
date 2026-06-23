@@ -1,25 +1,24 @@
 {
-  "version": "1.0.0",
+  "modpack_version": "1.0.0",
   "minecraft_version": "1.20.1",
-  "forge_version": "47.4.20",
 
   "java": {
-    "version_minima": 25,
-    "version_exacta": "25.0.3",
-    "carpeta_extraida": "jdk-25.0.3",
-    "descarga_windows": "https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.zip"
+    "version": 21,
+    "download": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe"
   },
 
-  "forge_installer": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-installer.jar",
+  "forge": {
+    "version": "47.4.20",
+    "download": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-installer.jar",
+  },
 
   "mods": [
     {
       "nombre": "JEI",
       "archivo": "jei-1.20.1-forge-15.20.0.130.jar",
       "url": "https://github.com/ipoocp/970-modpack/raw/refs/heads/main/jei-1.20.1-forge-15.20.0.130.jar",
-      "sha256": ""
     }
   ],
 
-  "actualizado_en": "2026-06-16"
+  "updated": "2026-06-23"
 }
